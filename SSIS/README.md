@@ -10,5 +10,8 @@ In this folder, I share scripts that I use to detect anomalies, find error messa
 
 ## Available Scripts
 
-- `LogErrors.sql` - This query provides comprehensive execution details for specific SSIS packages.
+| Script Name | Description |
+|-------------|-------------|
+| ssis_detailed_execution_log.sql | Provides comprehensive execution details for specific SSIS packages, including package components, execution times, duration metrics, and consolidated error messages for troubleshooting. |
+| sql_agent_job_history.sql | Displays a complete overview of SQL Agent job history with formatted execution times, run status, step details, and duration in a readable DD:HH:MM:SS format. |
 
